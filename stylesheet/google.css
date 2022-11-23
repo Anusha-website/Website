@@ -1,0 +1,81 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:  Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    text-align: right;
+    margin-bottom: 30px;
+    
+    
+}
+header{
+    text-align: right;
+    margin-bottom: 50px;
+}
+button{
+    margin-bottom: 10px;
+    padding: 5px;
+
+}
+     
+
+
+img{
+    width: 400px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+    border:solid 3px #f2f2f2;
+
+}
+
+input:hover{
+    background-color: #f2f2f2;
+}
+
+
+.img{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+#section{
+    text-align: center;
+    margin-bottom: 150px;
+    
+}
+.footer{
+      margin-bottom: 100px;
+}
+#settings{
+    float: right;
+    float:top;
+    margin-top: -30px;
+}
+
+p{
+    height: 30px;
+    margin-top: 20px;
+}
+footer{
+    background-color: gainsboro;
+    margin-top: 50px;
+}
+#anusha{
+    
+    height: 30px;
+}
