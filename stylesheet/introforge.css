@@ -1,16 +1,168 @@
-h1{
-background-color: brown;
-    margin-left: 20px;
-    margin-left:20px;
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
 }
-a{
-    width: 50px;
-    margin:40px,20px;
+
+body{
+
+    border: 2pex solid red;
+}
+
+header{
+
+    min-height: 80px;
+    width: 100%;
+    background-color:#7e7eff;
+    font-family: sans-serif;
+}
+
+.navbar{
+
+    width: 80%;
+}
+
+nav{
+
+    float: right;
+    padding: 15px;
+    margin-top: 1rem;
+}
+.intro-heder{
+
+    min-height: 55vh;
+    padding: 4px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-left: 40px;
+}
+
+h2{
+padding: 40px;
+padding-left: 120px;
+font-size:x-large;
 }
 p{
-    text-align: center;
+    margin-left: 50px;
 }
+
+
 button{
+
+    margin-left:220px;
+    margin-bottom:40px;
+    font-size: 1em;
+    background-color:#7e7eff;
+    color: white;
     text-align: center;
-    background-color: lightblue;
 }
+
+.clients{
+
+    background-color: blanchedalmond;
+    min-height: 87vh ;
+    margin: auto;
+    text-align: center;
+}
+
+.clients img{
+
+    height: 35vh;
+    margin: 0 2vw;
+}
+
+h3{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 40px;
+}
+
+.services{
+
+    min-height:74vh;
+    margin: 2px 40px;
+    
+ }
+
+.services img{
+
+    height: 28vh;
+    align-items: center;
+    margin: 0 1.2vw;
+ }
+
+h4{
+
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 25px;
+ }
+h1{
+    margin-left: 80px;
+
+}
+
+nav a{
+
+    color: white;
+    text-decoration: none;
+    margin-top:-30px;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: black;
+    
+}
+
+.services{
+text-align: center;
+margin-left: 40px;
+}
+
+.website{
+
+}
+
+.App-Development{
+
+}
+
+footer{
+
+    background-color:#7e7eff;
+    min-height: 5vh;
+    text-align: center;
+
+}
+  .container{
+    margin-right: -30px;
+  }  
+ span{
+    color: orange;
+ }
+
+@media screen and (max-width:780px){
+ 
+    nav{
+
+        margin: 5px;
+        text-align: center;
+    }
+
+    .services{
+        margin: 0;
+        padding: 0%;
+        width: 100vw;
+    }
+    
+
+
+    .navbar a{
+        float: left;
+    }
+
+}  
+    
+
+

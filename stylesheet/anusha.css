@@ -1,23 +1,30 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
 body{
   background-color: lightblue;   
 }
 h1{
 text-align: center;
+
 }
 h2{
 text-align: center;
 }
+
 p{
 text-align: center;
 text-decoration: underline;
 }
+
 h3{
   text-decoration: underline;
   text-align: center;
+  padding-inline: 50px;
 }
-strong{
-  text-align: center;
-}
+
  h4{
   text-align: center;
   text-decoration: underline;
@@ -26,6 +33,7 @@ img{
 text-align: center;
 width: 200px;
 height: 100px;
+padding-top: 30px;
 }
 h5{
 text-align: center;
@@ -52,11 +60,31 @@ border-top:dotted 5px;
   padding: 30px;
   height: 200px;
   
+  
 }
 #favourites{
   text-align: center;
-  padding: 10px;
+  padding: 40px;
+  margin-left: 50px;
 }
 a{
   text-align: center;
 }
+
+.container{
+  background-color: lightskyblue;
+}
+ul{
+  margin-left: 50px;
+}
+li{
+  margin-left: 50px;
+}
+
+@media  screen and  (max-width: 300px)
+{
+
+}
+  
+
+
