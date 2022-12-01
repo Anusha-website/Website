@@ -38,18 +38,25 @@ nav{
 }
 
 h2{
-padding: 40px;
-padding-left: 120px;
-font-size:x-large;
+text-align: center;
+padding: 80px;
+padding-left:30px;
+font-size:30px;
 }
 p{
-    margin-left: 50px;
+    margin-left: 80px;
+    font-size: x-large;
+    padding-left: 30px;
+    text-align: center;
+    font-style: bold;
+    
+
 }
 
 
 button{
 
-    margin-left:220px;
+    margin-left:600px;
     margin-bottom:40px;
     font-size: 1em;
     background-color:#7e7eff;
@@ -79,19 +86,20 @@ h3{
 }
 
 .services{
-
-    min-height:74vh;
+    text-align: center;
+    min-height:70vh;
     margin: 2px 40px;
     
  }
 
 .services img{
-
+    text-align: center;
     height: 28vh;
     align-items: center;
-    margin: 0 1.2vw;
+    margin: 0 1vw;
  }
-
+ 
+ 
 h4{
 
     text-align: center;
@@ -107,26 +115,15 @@ nav a{
 
     color: white;
     text-decoration: none;
-    margin-top:-30px;
+    margin-bottom:-30px;
     text-align: center;
     padding: 10px;
     font-size: 1rem;
-    border-radius: black;
+    font-style: bold;
+
     
 }
 
-.services{
-text-align: center;
-margin-left: 40px;
-}
-
-.website{
-
-}
-
-.App-Development{
-
-}
 
 footer{
 
@@ -142,7 +139,7 @@ footer{
     color: orange;
  }
 
-@media screen and (max-width:780px){
+@media screen and (max-width:300px){
  
     nav{
 
