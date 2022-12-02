@@ -1,32 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body{
-
-    border: 2pex solid red;
+    
+font-family: 'Poppins', sans-serif;
+border: 2pex solid bisque;
 }
 
 header{
-
+    padding-top: 10px;
     min-height: 80px;
     width: 100%;
     background-color:#7e7eff;
     font-family: sans-serif;
+    font-size: bold
 }
-
 .navbar{
 
-    width: 80%;
+    width: 90%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 
 nav{
 
     float: right;
-    padding: 15px;
-    margin-top: 1rem;
+    padding: 25px;
+    margin-top: -20px;
+    
 }
 .intro-heder{
 
@@ -35,33 +43,40 @@ nav{
     text-align: center;
     font-family: sans-serif;
     margin-left: 40px;
+    float: left;
 }
 
 h2{
 text-align: center;
-padding: 80px;
+padding-bottom: 80px;
 padding-left:30px;
 font-size:30px;
+margin-top: 80px;
+margin-bottom: 10px;
 }
+
 p{
-    margin-left: 80px;
-    font-size: x-large;
-    padding-left: 30px;
+    margin-left: 40px;
     text-align: center;
-    font-style: bold;
+    font-size:x-large;
+    margin-bottom: 10px;
     
-
+    
 }
-
 
 button{
 
-    margin-left:600px;
-    margin-bottom:40px;
     font-size: 1em;
     background-color:#7e7eff;
     color: white;
     text-align: center;
+    border:0;
+    border-radius: 5px;
+    padding: 10px;
+   margin-left: 40%;
+   margin-bottom: 20px;
+   cursor: pointer;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .clients{
@@ -78,6 +93,7 @@ button{
     margin: 0 2vw;
 }
 
+
 h3{
     font-family: sans-serif;
     text-align: center;
@@ -89,16 +105,14 @@ h3{
     text-align: center;
     min-height:70vh;
     margin: 2px 40px;
-    
  }
-
 .services img{
     text-align: center;
     height: 28vh;
     align-items: center;
     margin: 0 1vw;
  }
- 
+
  
 h4{
 
@@ -108,35 +122,51 @@ h4{
  }
 h1{
     margin-left: 80px;
+    margin-bottom: 10px;
+
 
 }
+a{
+    color: black;
+}
+
+
 
 nav a{
 
     color: white;
     text-decoration: none;
-    margin-bottom:-30px;
     text-align: center;
     padding: 10px;
     font-size: 1rem;
     font-style: bold;
-
+    margin-top:-20px;
     
 }
-
 
 footer{
 
     background-color:#7e7eff;
-    min-height: 5vh;
+    min-height: 7vh;
     text-align: center;
-
+    font-style: bold;
+   margin-bottom: 40px;
+   color: white;
 }
-  .container{
-    margin-right: -30px;
+.container{
+width: 100%;
+margin:auto ;
+overflow: hidden;
+
   }  
+  a{
+    color:black;
+    text-decoration: none;
+  }
  span{
     color: orange;
+    margin-bottom: 30px;
+    
  }
 
 @media screen and (max-width:300px){
@@ -147,18 +177,20 @@ footer{
         text-align: center;
     }
 
-    .services{
-        margin: 0;
-        padding: 0%;
-        width: 100vw;
+    .website{
+        float: left;
+        width: 33%;
+        padding: 20px;
     }
-    
-
-
     .navbar a{
         float: left;
     }
-
+.services{
+    float:left;
+    width:33%;
+text-align: center;
+padding: 10px;
+}
 }  
     
 

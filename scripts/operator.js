@@ -32,10 +32,10 @@ console.log(!(three>seven && three<seven))
 let result = (8<5) ?"True":"False";
 console.log(result)
 // incriment and decriment
-let N = 3;
-console.log(N++)//3
-console.log(++N)//5
-console.log(N--)//5
-console.log(++N)//5
-console.log(--N)//4
-console.log(N)//4
+let N = 5;
+console.log(N++)//5
+console.log(++N)//7
+console.log(N--)//7
+console.log(++N)//7
+console.log(--N)//6
+console.log(N)//6
