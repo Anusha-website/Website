@@ -2,6 +2,8 @@ body{
     background-color: aquamarine;
     text-align: center;
     margin-top: 200px;
+    border-color: lightgrey;
+    border: 150px;
 }
 
 #section{
