@@ -12,13 +12,8 @@ body{
     color: purple;
 }
 button{
-    padding: 50px;
+    padding: 10px;
     color:lightcoral;
     font: bold;
-    border-color: black;
-}
-.work{
-    padding-top: 20px;
-    font: bold;
-    font-family: sans-serif;
+    border-color:pink yellow green red purple orange;
 }
