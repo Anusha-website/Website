@@ -10,6 +10,13 @@ body{
     color: purple;
 }
 button{
-    padding: 30px;
+    padding: 50px;
     color:lightcoral;
+    font: bold;
+    border-color: black;
+}
+.work{
+    padding-top: 20px;
+    font: bold;
+    font-family: sans-serif;
 }
