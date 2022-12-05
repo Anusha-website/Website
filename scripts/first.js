@@ -12,6 +12,7 @@ console.log(addition,substartion,mutiplication,division,modulos)
  let x=7;
  let y=9;
  console.log(x+=y,x-=y,x*=y,x/=y,x%=y,x**=y)
+
  //logical operators
 //logical  And operator
 let age = 20;
@@ -20,17 +21,21 @@ if(age>13 && age<=19){
 } else if(age>=19 && age<27){
    console.log(`"you are an "adult"`)
 }else{console.log("you are not a teenager or adult")}
+
 // logical OR operator
 let num=8;
 let num1=10;
 console.log(num>num1 || num<num1)
+
 //logical not operator
 let three=3;
 let seven=7;
 console.log(!(three>seven && three<seven))
+
 //Ternary
 let result = (8<5) ?"True":"False";
 console.log(result)
+
 // incriment and decriment
 let N = 5;
 console.log(N++)//5
@@ -39,6 +44,7 @@ console.log(N--)//7
 console.log(++N)//7
 console.log(--N)//6
 console.log(N)//6
+
 //switch case
 let day=7;
     switch (day) {
@@ -56,7 +62,7 @@ let day=7;
             break;
             case day=4:
                 console.log("friday");
-                break;
+                break; 
             case day=5:
                 console.log("saturday");
             break;
@@ -65,6 +71,7 @@ let day=7;
           default:
                 console.log("something write to get wrong");
     }
+    
    //for loop
    let n=10;
    for(let n=0;n<=10;n++){
