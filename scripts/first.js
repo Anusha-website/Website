@@ -40,31 +40,31 @@ console.log(++N)//7
 console.log(--N)//6
 console.log(N)//6
 //switch case
-//let x=7;
-    //switch (days) {
-        //case  day0:
-          //console.log("monday");
-        //break;
-        //case day1:
-            //console.log("tuesday");
-        //break;   
-        //case day2:
-            //console.log("wednesday");    
-        //break;
-        //case day3:
-            //console.log("thursday");
-           // break;
-            //case day4:
-                //console.log("friday");
-                //break;
-            //case day6:
-                //console.log("saturday");
-           // break;
-           // case day7:
-                //console.log("sunday");       
-            //default:
-               // console.log("something write to get wrong");
-   // }
+let day=7;
+    switch (day) {
+        case  day=0:
+          console.log("monday");
+      break;
+        case day=1:
+            console.log("tuesday");
+        break;   
+        case day=2:
+            console.log("wednesday");    
+        break;
+        case day=3:
+            console.log("thursday");
+            break;
+            case day=4:
+                console.log("friday");
+                break;
+            case day=6:
+                console.log("saturday");
+            break;
+            case day=7:
+                console.log("sunday");       
+          default:
+                console.log("something write to get wrong");
+    }
    //for loop
    let n=10;
    for(let n=0;n<=10;n++){

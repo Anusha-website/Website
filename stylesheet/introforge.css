@@ -18,23 +18,20 @@ header{
     width: 100%;
     background-color:#7e7eff;
     font-family: sans-serif;
-    font-size: bold
+    font-size: bold;
 }
 .navbar{
 
     width: 90%;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
 
 nav{
 
     float: right;
-    padding: 25px;
-    margin-top: -20px;
-    
+    padding: 15px;
+    margin-top: -10px;
+    margin-right: 50px;
+    font-style: bold;
 }
 .intro-heder{
 
@@ -54,12 +51,18 @@ font-size:30px;
 margin-top: 80px;
 margin-bottom: 10px;
 }
+.website-development{
+    float:left;
+    width: fit-content;
+    margin-right: 120px;
+}
 
 p{
     margin-left: 40px;
     text-align: center;
     font-size:x-large;
     margin-bottom: 10px;
+    
     
     
 }
@@ -121,12 +124,12 @@ h4{
     padding: 25px;
  }
 h1{
-    margin-left: 80px;
+    margin-left: 120px;
     margin-bottom: 10px;
 
 
 }
-a{
+a:hover{
     color: black;
 }
 
@@ -150,7 +153,7 @@ footer{
     min-height: 7vh;
     text-align: center;
     font-style: bold;
-   margin-bottom: 40px;
+   margin-top: 80px;
    color: white;
 }
 .container{
@@ -166,6 +169,7 @@ overflow: hidden;
  span{
     color: orange;
     margin-bottom: 30px;
+    
     
  }
 
