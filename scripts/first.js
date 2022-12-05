@@ -57,10 +57,10 @@ let day=7;
             case day=4:
                 console.log("friday");
                 break;
-            case day=6:
+            case day=5:
                 console.log("saturday");
             break;
-            case day=7:
+            case day=6:
                 console.log("sunday");       
           default:
                 console.log("something write to get wrong");
@@ -72,11 +72,11 @@ let day=7;
    }
 
 //while loop
-let i= 0;
+let i= 1;
 while (i<=10) {
-  i++;
-}
 console.log(i);
+i++;
+}
 
 //do-while loop
 let number=0;
