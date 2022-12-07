@@ -110,3 +110,6 @@ for (const property in object) {
   for (const element of array) {
     console.log(element);
   }
+  
+  
+  
