@@ -28,6 +28,14 @@ h3{
 h4{
   text-align: center;
 }
+h5{
+  text-align: center;
+  font-size: x-large;
+}
+h6{
+  text-align: center;
+  font-size: x-large;
+}
 #my-routine{
   background-color: #59C1BD;
   padding: 20px;

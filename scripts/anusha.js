@@ -6,7 +6,7 @@
 //alert("Hi "+person+" Welcome!");
 
 let num1 = parseInt(prompt("please enter a number"));
-let num2 = parseInt(prompt("please enter anotehr number"));
+let num2 = parseInt(prompt("please enter another number"));
 let sum = (num1+num2);
 let sub = num1-num2;
 let mul = num1*num2;
