@@ -5,9 +5,9 @@
 //let person=prompt("Enter your name");
 //alert("Hi "+person+" Welcome!");
 
-letnum1= parseInt(prompt("please enter your num1"));
-letnum2=parseInt(prompt("please enter your num2"));
-letsum=(num1+num2);
+let num1 = parseInt(prompt("please enter a number"));
+let num2 = parseInt(prompt("please enter anotehr number"));
+let sum = (num1+num2);
 let sub = num1-num2;
 let mul = num1*num2;
 let division = num1/num2;
