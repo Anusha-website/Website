@@ -153,7 +153,7 @@ function multi(x,y){
   return x*y;
 }
 
-let value=multi(5,12);
+let value=multi(5,4);
 printMessage(value);
  
 //divison
@@ -165,7 +165,7 @@ function divison(x,y){
   return x/y;
 }
 
-let operator=sum(5,12);
+let operator=divison(5,3);
 printMessage(operator);
 
 //modulos 
@@ -173,10 +173,10 @@ function printMessage(Message){
   console.log(Message);
 }
 
-function modulos(x,y){
+function modulo(x,y){
   return x%y;
 }
 
-let Object =sum(5,12);
+let Object =modulo(5,12);
 printMessage(Object);
 
