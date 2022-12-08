@@ -118,7 +118,7 @@
     //return sum;
    // console.log("sum of 5 natural numbers"+sum);
   //}
-  
+ //functions starts here!
   
 //addition
 function printMessage(Message){
