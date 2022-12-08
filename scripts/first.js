@@ -110,7 +110,14 @@
 //for (const element of array) {
   //console.log(element);
   //}
-  
+ 
+  //for loop sum of natrual numbers
+  //let x=0;
+  //for (let i=1; i<=5; i++){
+    //sum = sum+i;
+    //return sum;
+   // console.log("sum of 5 natural numbers"+sum);
+  //}
   
   
 //addition
@@ -118,12 +125,12 @@ function printMessage(Message){
   console.log(Message);
 }
 
-function sum(x,y){
- let sumofNumbers =x+y;
-return sumofNumbers;
+function add(x,y){
+ let addofNumbers =x+y;
+return addofNumbers;
 }
 
-let result=sum(5,3);
+let result=add(5,3);
 printMessage(result);
 
 //substraction
