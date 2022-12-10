@@ -61,4 +61,7 @@ function printMessage(Message){
 //uppercase
 const sentence = 'The quick brown fox jumps over the lazy dog.';
 console.log(sentence.toUpperCase());
-  
+
+//split string
+ const string=['the quick brown for jumps over the lazy dog'];
+ string=(spit.array[6]);
