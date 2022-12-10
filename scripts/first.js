@@ -6,12 +6,12 @@
 //let mutiplication=a*b
 //let division=a/b
 //let modulos=a%b
-//console.log(addition,substartion,mutiplication,division,modulos)
+//console.log(addition,substartion,mutiplication,division,modulos);
 
 //Assignment operator
  //let x=7;
  //let y=9;
- //console.log(x+=y,x-=y,x*=y,x/=y,x%=y,x**=y)
+ //console.log(x+=y,x-=y,x*=y,x/=y,x%=y,x**=y);
 
  //logical operators
 //logical  And operator
@@ -25,25 +25,25 @@
 // logical OR operator
 //let Num=8;
 //let num1=10;
-//console.log(Num>num1 || Num<num1)
+//console.log(Num>num1 || Num<num1);
 
 //logical not operator
 //let three=3;
 //let seven=7;
-//console.log(!(three>seven && three<seven))
+//console.log(!(three>seven && three<seven));
 
 //Ternary
 //let val = (8<5) ?"True":"False";
-//console.log(val)
+//console.log(val);
 
 // incriment and decriment
 //let N = 5;
-//console.log(N++)//5
-//console.log(++N)//7
-//console.log(N--)//7
-//console.log(++N)//7
-//console.log(--N)//6
-//console.log(N)//6
+//console.log(N++);//5
+//console.log(++N);//7
+//console.log(N--);//7
+//console.log(++N);//7
+//console.log(--N);//6
+//console.log(N);//6
 
 //switch case
 //let day=7;
@@ -89,8 +89,7 @@
 //let number=0;
 //do {
 //i+=1;
-    
-//} while (number>0&&number<5){
+  //} while (number>0&&number<5){
 //number--;
 //}
 //console.log(number); 
@@ -105,11 +104,11 @@
 //console.log(`${property}: ${object[property]}`);
 //}
 
-  //for of-loop
+//for of-loop
 //const array=['p','q','r'];
 //for (const element of array) {
-  //console.log(element);
-  //}
+//console.log(element);
+//}
  
   //for loop sum of natrual numbers
   //let x=0;
