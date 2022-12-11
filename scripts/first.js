@@ -128,4 +128,25 @@
 // }
 
 
+//split
+let text = "How are you doing today?";
+console.log (text.split(" "));
 
+//slice
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+console.log (fruits.slice(1, 3));
+
+//concat
+const data ="we are";
+let name ="we are javascript developers!";
+console.log(name.concat("",data));
+
+console.log(this);
+
+// let fruit {
+// Name: 'Mango';
+// season: 'summer';
+// color:'yellow';
+// console.log("fruit");
+
+//  }

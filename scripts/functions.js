@@ -63,14 +63,10 @@
 const sentence = 'The quick brown fox jumps over the lazy dog.';
 console.log(sentence.toUpperCase());
 
-//split
-let text = "How are you doing today?";
-const myArray = text.split(" ");
+//string length method
+ const name="java developer";
+ console.log(name.length);
 
-//slice
-const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-const str = fruits.slice(1, 3);
-
-
+ //
 
 
