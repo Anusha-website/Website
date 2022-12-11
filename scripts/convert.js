@@ -106,4 +106,11 @@ console.log(mmtocm+'cm');
 //const mmtocm=(x)=>x*100;
 
 
+let str="good developers";
+str.split(" ") .forEach(word =>{
+  let lowerWord=word.toLowerCase();
+  console.log(lowerWord[0].toUpperCase()+lowerWord.slice(1));
+});
 
+
+  
