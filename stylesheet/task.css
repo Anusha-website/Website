@@ -5,84 +5,93 @@
 }
 
 .container{
-    height: 1000px;
-    width: 1000px;
+    height: 1200px;
+    width: 1200px;
 }
 
-.box1{
-    background-color: aqua;
-    height: 300px;
-    width: 300px;
+#box1{
+    
+    height: 350px;
+    width: 350px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
 }
-
-.box2{
-    background-color: blue;
-    height:300px;
-    width:300px;
-    float: left;
-    margin-left: 10px;
-    margin-top: 10px;
-
+p{
+    margin-top:20px;
+    text-align:center ;
 }
-
-.box3{
-    background-color: blueviolet;
-    height: 300px;
-    width: 300px;
+#box2{
+    
+    height:350px;
+    width:350px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
 
 }
-
-.box4{
-    background-color: green;
-    height:300px;
-    width:300px;
+ div img{
+      margin-top: 20px;
+      border-radius: 10px;
+ }
+#box3{
+    
+    height: 350px;
+    width: 350px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
+    text-align: center;
+
+
 
 }
 
-.box5{
-    background-color: purple;
-    height:300px;
-    width:300px;
+#box4{
+    
+    height:350px;
+    width:350px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+}
+
+#box5{
+    
+    height:350px;
+    width:350px;
     float: left;
     margin-left: 10px;
     margin-top: 10px;
 }
 
-.box6{
-    background-color: red;
-    height:300px;
-    width:300px;
+#box6{
+    
+    height:350px;
+    width:350px;
     float:left;
     margin-left: 10px;
     margin-top: 10px;
 }
 
 @media screen and (max-width:350px){
-    .box1{
+    #box1{
         float: none;
     }
-    .box2{
+    #box2{
         float:none;
     }
-    .box3{
+    #box3{
         float:none;
     }
-    .box4{
+    #box4{
         float:none;
     }
-    .box5{
+    #box5{
         float:none;
     }
-    .box6{
+    #box6{
         float:none;
     }
     }

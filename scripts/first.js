@@ -141,7 +141,6 @@ const data ="we are";
 let name ="we are javascript developers!";
 console.log(name.concat("",data));
 
-console.log(this);
 
 let fruit={
 name: "Mango",

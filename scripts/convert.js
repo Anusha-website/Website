@@ -89,7 +89,7 @@ console.log(cmtomm+'mm');
 //const cmtomm=(x)=>x/100;
 
 //mmtocm
-function mmTocm(x){
+ function mmTocm(x){
   return x*100;
 }
 const mmtocm = mmTocm(10);
