@@ -67,6 +67,6 @@ console.log(sentence.toUpperCase());
  const name="java developer";
  console.log(name.length);
 
- //
+
 
 

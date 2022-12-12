@@ -143,10 +143,11 @@ console.log(name.concat("",data));
 
 console.log(this);
 
-// let fruit {
-// Name: 'Mango';
-// season: 'summer';
-// color:'yellow';
-// console.log("fruit");
+let fruit={
+name: "Mango",
+season: "summer",
+color:"yellow",
+};
+console.log(fruit.name);
 
-//  }
+

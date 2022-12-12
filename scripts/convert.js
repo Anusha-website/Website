@@ -112,6 +112,7 @@ str.split(" ") .forEach(word =>{
   console.log(lowerWord[0].toUpperCase()+lowerWord.slice(1));
 });
 
+
 function capitailize(word) {
   let lowerWord = word.toLowerCase();
   return word[0].toUpperCase()+lowerWord.slice(1);
