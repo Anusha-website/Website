@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,16 +6,21 @@
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #00ffff;
+    text-align: center;
+    margin-top: 150px;
+    
 }
 button{
     height: 60px;
     width: 120px;
     font-size: 25px;
-    border: none;
+    border:lightblue,lightcoral,green;
     border-radius: 5px;
     margin-left: 45vw;
     margin-top: 45vh;
+    float: left;
 }
 button:hover{
     background-color:lightcoral;
-}
+} 
+

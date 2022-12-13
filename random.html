@@ -8,12 +8,13 @@
     <title>random</title>
 </head>
 <body>
-    <script>
-        function myfunction(){
-            alert(Math.floor(Math.random()*1000000));
-            
-        }
-    </script>
-    <button onclick="myfunction()">click me</button>
+<p id="demo"></p>
+   <!-- <script>
+        function getRndInteger(min, max) {
+        return Math.floor(Math.random() * 10000);
+  } 
+  </script>-->
+<button onclick="document.getElementById('demo').innerHTML = getRndInteger(10000,99999)">Click Me</button>
 </body>
+<script src="./scripts/random.js"></script>
 </html>
