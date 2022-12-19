@@ -71,7 +71,7 @@ float: left;
     background:white;
     color:lightseagreen;
     padding: 15px;
-    font-size: 10px;
+    font-size: 25px;
     border-radius: 8px;
 
 }
@@ -85,8 +85,8 @@ float: left;
     width:80px;
     right:75%;
     background:white;
-    color: lightseagreen;
-    font-size: 15px;
+    color: rgb(51, 131, 127);
+    font-size: 25px;
     padding:15px;
     border-radius: 5px;
 

@@ -9,20 +9,20 @@ function generateRandom() {
     return result;
 }
 
-btn1.addEventListener('click', () =>{
-    p1value.innerText = generateRandom();
+// btn1.addEventListener('click', () =>{
+//     p1value.innerText = generateRandom();
 
-});
+// });
 
-btn2.addEventListener('click', () =>{
-    p2value.innerText = generateRandom();
-});
+// btn2.addEventListener('click', () =>{
+//     p2value.innerText = generateRandom();
+// });
 
 
-// function ranDome1() {
-//     document.querySelector("#p1value").innerHTML= Math.floor(Math.random()*100+1);
+function randomNum1() {
+    document.querySelector("#randomNum2").innerHTML= Math.floor(Math.random()*100);
 
-// }
-// function ranDome2() {
-//     document.querySelector("#p2value").innerHTML= Math.floor(Math.random()*100+1);
-// }
+}
+function randomNum2() {
+    document.querySelector("#randomNum1").innerHTML= Math.floor(Math.random()*100);
+}
