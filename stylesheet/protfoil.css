@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100px;
+    width:100px;
+    font-family: sans-serif;
+}
+.node2{
+    float:right;
+    margin-right: 70px;
+    margin-top:10px;
+}
+
+.into{
+
+}
+#node4{
+    min-height: 60vh;
+    width: 80%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+} 
