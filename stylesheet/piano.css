@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   margin-right: 180px;
-  margin-left: 250px;
+  margin-left: 150px;
   background-color: black;
   text-align: center;
   padding-top: 50px;
@@ -31,7 +31,7 @@ body {
 .white {
   position: relative;
   background: rgb(241, 240, 240);
-  width: 15%;
+  width: 10%;
   height: 400px;
   margin: 0 2px;
 }

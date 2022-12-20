@@ -4,19 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    height: 100px;
-    width:100px;
     font-family: sans-serif;
 }
-.node2{
+.nav a{
     float:right;
     margin-right: 70px;
     margin-top:10px;
 }
 
-.into{
-
-}
 #node4{
     min-height: 60vh;
     width: 80%;
