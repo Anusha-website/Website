@@ -92,7 +92,7 @@ button{
 .container1{
     padding: 10px 10% 30px;
     margin-top: 5%;
-    background-color:#C0D8C0 ;
+    background-color:lightblue;
 }
 
 .posts{
@@ -166,11 +166,11 @@ button{
 }
 
 footer img{
-    margin: 15px;
+    margin: 35px;
 }
 
 footer p{
-    margin-bottom: 15%;
+    margin-bottom: 25%;
 }   
 
 /* media quairies starts from here */
