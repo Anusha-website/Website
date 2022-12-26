@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.container {
+    margin: 0 15vw 0 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.box4 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#navigation {
+    float: right;
+    height: 80px;
+    width: 100%;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+
+nav a {
+   margin: 1.5vw;
+   text-decoration: none;
+   color: #000;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+#blog {
+    color: #FF6464;
+}
+
+h1 {
+    margin-bottom: 25px;
+}
+
+.chaild1 {
+    margin: 5px 5px 8px 0 ;
+}
+
+.pera {
+    margin-top: 13px;
+}
+
+hr {
+    margin-top: 20px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.head1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.socialdiv {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 10vh;
+    width: fit-content;
+ 
+ }
+
+ .socialdiv a{
+    color: #000;
+}
+
+.sp1 {
+    font-size: 18px;
+    font-weight: 550;
+}
+
+ i {
+    height: 7vh;
+    margin: .3em;
+    font-size: 2.5rem;
+}
+
+i:hover {
+    color:#C147E9;
+    cursor: pointer;
+}
+
+#f1{
+    width: 2vw;
+}
+
+.copy {
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1em;
+}
+
+.menubars {
+    display: none;
+}
+
+@media screen and (max-width:346px) {
+    .copy {
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width:320px) {
+    nav{
+        display: none;
+    }
+
+    .menubars {
+        position: absolute;
+        top: -10px;
+        right: 15px;
+        display: inline-block;
+        /* height: 80px;
+        width: 100%; */
+    }
+
+    .fa-sharp {
+        padding-top: 19px;
+        padding-left: 12px;
+    }
+
+    .fa-sharp:hover{
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        overflow: auto;
+        position: absolute;
+        background-color: #f2f2f2;
+        width: fit-content;
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    }
+
+    .dropdown-content a:hover{
+        font-weight: bold;
+    }
+
+}
