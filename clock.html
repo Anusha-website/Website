@@ -1,21 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>clock</title>
-    <link rel="stylesheet" href="./stylesheet/clock.css">
-    <script>
-        function displayDate(){
-        document.getElementById("showDate").innerHTML=Date();
-        }
-    </script>
+    <link rel="stylesheet" href="stylesheet/clock.css">
+<title>Document</title>
 </head>
 <body>
-<button type="button" onclick="displayDate()">ShowDate</button><br>
-<time>1:00:28</time>
-<div id="showDate"></div>
-</html>
+    <div id="clockContainer">
+		<div id="hour"></div>
+		<div id="minute"></div>
+		<div id="second"></div>
+	</div>
+
 </body>
+<script src="scripts/clock.js"></script>
+</html>
