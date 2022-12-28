@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+
+}
+
+body{
+    /* background-color: #1aebda; */
+    background-color:#b388ff;
+}
+
+.form1{
+
+   display:inline-block;
+   margin-left: 100px;
+   border:2px solid #000;
+   min-height: 564px;
+   width: 31vw;
+   background-color: #f2f2f2;
+    
+
+}
+h1{
+    display: inline;
+    float: left;
+    margin-left: 110px;
+    
+}
+
+.form1 form{
+
+    margin-top: 40px;
+    margin-left: 20px;
+    
+
+}
+
+
+.form2{
+    display: inline-block ;
+    float: right;
+    border: 2px solid #000;
+    padding: 10px;
+    margin-top: 30px;
+    min-height: 45vh;
+    width: 32vw;
+    margin-right: 100px;
+    background-color: #f2f2f2;
+    
+
+}
+
+h2 {
+    display: inline;
+    margin: 135px;
+}
+
+.form2 form{
+    margin-left: 20px;
+    margin-top: 50px;
+    
+    
+}
+
+.person{
+    width: 21vw;
+    height: 25px;
+    border-radius: 8px;
+    
+}
+
+input{
+    margin: 5px;
+}
+
+label{
+    padding: 10px;
+    margin-left: 5px;
+    
+}
+
+button{
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 130px;
+    margin-top: 10px;
+    border-color: #f2f2f2;
+    background-color:#ff4500;
+}
+
+button:hover{
+
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+textarea{
+    margin-left: 10px;
+    margin-top: 3px;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.vl {
+
+    border-left: 2px solid #000;
+    height: 569px;
+    position: absolute;
+    margin-left: -3px;
+    top: 0;
+}
+
+i{
+    position: relative;
+    right: 40px;
+    top: 2px;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:768px){
+    button{
+        font-size: medium;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        margin: 10px 10px 14px 0;
+
+    }
+
+    h1{
+        margin:5px 2px 0 5px;
+        font-size: 20px;
+    }
+
+    label{
+        font-size: 20px;
+    }
+
+    form{
+        margin-top: 20px;
+    }
+
+    .form1{
+        width: 50vw;
+        margin-left: 20px;
+        
+    }
+
+   .form2{
+        float: left;
+        width: 37vw;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    h2{
+        margin: 3px;
+    }
+
+    textarea{
+        max-width:20vw;
+        font-size: 15px;
+    }
+       
+    .person{
+        width: 45vw;
+        font-size: 20px;
+        padding-left: 8px;
+    }
+
+    @media screen and (width:1028px){
+        button{
+            font-size: 20px;
+        }
+    
+        div.form1{
+            margin-top: 1px;
+        }
+
+
+    
+    }
+    
+}
